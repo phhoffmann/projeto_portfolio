@@ -1,0 +1,258 @@
+/*- MENU  -*/
+
+a, a label {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menutop {
+  background-color: black;
+  height: 11rem;
+  width: 100%;
+  display: block;
+}
+
+.header {
+  width: 50;
+}
+
+.logo {
+  float: left;
+  margin: 3.5rem 0rem 3.5rem 10rem;
+  background-color: rgba(100, 100, 100, 0.2)
+}
+
+.logotext {
+  letter-spacing: 1.5rem;
+  color: white;
+  margin-left: 1.5rem;
+  padding: 3rem 2rem 3rem 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+
+/* NAVIGATION BAR */
+
+nav>ul {
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav>ul>li {
+  float: left;
+}
+
+nav>ul>li>a {
+  display: inline;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  margin: 30px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav>ul>li:hover {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.navbar {
+  float: right;
+  color: lightgrey;
+  margin: 4rem 10rem 4rem 10rem;
+}
+
+
+/* PERFIL */
+
+.info {
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#perfil {
+  display: block;
+  background-color: lightgrey;
+  height: 25rem;
+  margin: auto;
+}
+
+#perfil p {
+  float: left;
+  color: #1b1b1b;
+  width: 45%;
+  padding: 3rem 5rem 0rem 15rem;
+  display: inline-block;
+}
+
+#perfil a button {
+  background: #d3d3d3;
+  color: #1d1d1d;
+  border-color: #1d1d1d;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.buttons {
+  margin-left: 15rem;
+}
+
+.btn-social {
+  background-color: #d3d3d3;
+  border: 2px solid black;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.btn-social:hover {
+  background-color: #252525;
+  border: 2px solid #252525;
+  color: #fff;
+  text-decoration: none;
+}
+
+.img-perfil {
+  border-radius: 50%;
+  max-width: 13rem;
+  max-height: 13rem;
+}
+
+#perfil a button:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #1d1d1d;
+  border-color: #1d1d1d;
+}
+
+
+/*PORTFOLIO*/
+
+.container {
+  display: block;
+}
+
+.port {
+  clear: both;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.port h1 {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+/*CARDS*/
+
+.col-3 {
+  float: left;
+}
+
+.card {
+  position: relative;
+  margin-top: 1rem;
+  margin: .2rem;
+}
+
+.card:hover img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#cards {
+  display: table;
+  width: 100%;
+  padding-bottom: 6rem;
+}
+
+.card img {
+  display: block;
+}
+
+.card .legend {
+  margin-left: 1rem;
+}
+
+
+/*BOTTOM*/
+
+#bottom {
+  clear: both;
+  display: block;
+  padding: 6rem 10rem 7rem 15rem;
+  background-color: lightgrey;
+}
+
+.inputs {
+  display: block;
+  margin-bottom: .5rem
+}
+
+.form {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+input {
+  display: block;
+  border: 0px solid;
+  margin: 0;
+  width: 99%;
+  font-family: monospace;
+  box-shadow: none;
+  line-height: 2.5rem;
+  padding-left: 1rem;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  border: 0px solid;
+}
+
+.formitem {
+  margin-bottom: 2rem;
+}
+
+.buttonForm span button {
+  background-color: #d3d3d3;
+  border: 2px solid black;
+  color: #000;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonForm span button:hover {
+  color: #fff;
+  background: #252525;
+  border-color: #252525 text-decoration: none;
+}
+
+#bottom p {
+  float: right;
+  padding-top: 1rem;
+  font-size: .8rem;
+}
+
+#bottom p>a {
+  text-decoration: underline;
+}
